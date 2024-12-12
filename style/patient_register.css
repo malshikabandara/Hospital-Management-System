@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(2, 2, 35);
+    font-size: 16px;
+    background: #03193f;
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(8, 4, 70);
+    text-align: center;
+    text-decoration: underline;
+}
+form{
+    width: 400px;
+    background: white;
+    padding: 10px 40px 40px;
+    margin: 70px auto 0;
+    border:2px solid #ccc;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+input,select{
+    border: 1px solid#ccc;
+    padding: 15px;
+    width: 90%;
+    height: 20px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    
+}
+label{
+    display: block;
+    margin-bottom: 3px;
+    margin-right: 8px;
+
+}
+div{
+    padding-bottom: 12px;
+}
+.Gender-Branch{
+    border: 1px solid rgb(15, 14, 14);
+    border-radius: 2px;
+    padding: 5px 5px 4px;
+    
+}
+.Gender-Branch label{
+    display: inline-block;
+    width: 30px;
+    padding-right: 30px;
+    font-size: 13px;
+    align-items: center;
+    text-align: center;
+
+}
+.Gender-Branch input{
+    display: inline-block;
+    width: 30px;
+    padding-right: 15px;
+    
+}
+input[type="submit"]{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(16, 205, 219);
+    margin-top: 5px;
+    border-color: black;
+    box-sizing: 30%;
+    height: 40%;
+    width: 100%;
+    box-shadow: 0 3px 0 rgb(8, 130, 160);
+    cursor: pointer;
+    align-items: center;
+}

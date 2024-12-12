@@ -1,0 +1,126 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ffa500;
+}
+
+/* Introduction Section */
+.intro {
+    padding: 2rem;
+    background-color: #030b44;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.intro h1 {
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    margin-bottom: 1.5rem;
+}
+
+/* Services Section */
+.services {
+    padding: 2rem;
+    background-color: #9da1c1;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+/* Flexbox Container for Services */
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.service-item {
+    flex: 1 1 30%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-item h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.service-item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Patient Registration Link Section */
+.patient-registration-link {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.patient-registration-link h2 {
+    margin-bottom: 1rem;
+}
+
+.patient-registration-link a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.patient-registration-link a:hover {
+    color: #ff6600;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Reservation</title>
+  <link rel="stylesheet" href="style/patient_register.css">
+</head>
+<body>
+      
+      <form>
+        <h2>Patient Register & Reservation Form</h2>
+        <div>
+            <label>Patient Name</label>
+            <input type="text" name="Patient Name">
+        </div>
+        <div>
+            <label>City & Address</label>
+            <input type="text" name="City & Address">
+        </div>
+        <div>
+            <label>Age</label>
+            <input type="text" name="Age">
+        </div>
+        <div>
+            <label>Disease</label>
+            <input type="text" name="Dieses">
+        </div>
+        <div>
+            <label>Mobile Number</label>
+            <input type="text" name="Mobile Number">
+        </div>
+        <div>
+            <label>Allocate Doctor</label>
+            <select name="Allocate Doctor">
+                
+                <option>Dr.Rajarthnam</option>
+                <option>Dr.Rasika Senadhira</option>
+                <option>Dr.Mahesh Weerakoon</option>
+                <option>Dr.Sujatha bandara</option>
+                <option>Dr.Dhammika Kumara</option>
+                <option>Dr.Madhurika Perera</option>
+                <option>Dr.Karunathilaka</option>
+                <option>Dr.Piyumi Ekanayake</option>
+                <option>Dr.Wathsala Ariyadasa</option>
+                <option>Dr.Manel Hettiarachchi</option>
+            </select>
+        </div>
+        <div>
+            <label>Gender</label>
+            <div class="Gender-Branch">
+                <label>
+                    <input type="radio" name="gender" value="male">Male</label>
+                <label>
+                    <input type="radio" name="gender" value="female">Female</label>
+            </div>
+        </div>
+        <div>
+            <label>Hospital Branch</label>
+            <div class="Gender-Branch">
+                <label>
+                    <input type="checkbox" name="Branch" value="Colombo City Branch">Colombo City Branch
+                </label>
+                <label>
+                    <input type="checkbox" name="Branch" value="Kandy City Branch">Kandy City Branch
+                </label>
+                <label>
+                    <input type="checkbox" name="Branch" value="Negombo City Branch">Negombo City Branch
+                </label>
+            </div>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Register"><br><br>
+                     If you want to go back click here.<a href="service_page.html">Back</a>
+        </div> 
+      </form>
+  </body>
+  </html>

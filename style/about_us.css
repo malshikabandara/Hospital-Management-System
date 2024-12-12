@@ -1,0 +1,130 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ffa500;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-us h1 {
+    margin-bottom: 1rem;
+}
+
+/* Branch Section */
+.branch {
+    padding: 2rem;
+    background-color: #12064b;
+    border-bottom: 3px solid #eee;
+}
+
+.branch h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fcf9f9;
+}
+
+.branch-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.branch-map {
+    width:400px;
+    height: 200px;
+    display: flex;
+}
+
+.branch-description {
+    flex: 1;
+    text-align: justify;
+    color: #eaeaea;
+    text-align: center;
+}
+
+.branch-description img {
+    width: 50%;
+    height: 300px;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+/* Hospital Summary Table */
+.hospital-summary {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.hospital-summary h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #615bb6;
+    padding: 0.8rem;
+}
+
+th {
+    background-color: #42a5bb;
+}
+
+tfoot {
+    background-color: #020116;
+    text-align: center;
+    color: #eaeaea;
+}
+
+tfoot td {
+    padding: 1rem;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}

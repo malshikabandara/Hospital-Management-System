@@ -1,0 +1,135 @@
+/* Reset default styling */
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #070133;
+
+    
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ffa500;
+}
+
+/* Hero Section Styling */
+.hero {
+    background-image: url(../images/1234567890.jpg); /* Add your hero image here */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    color: rgb(7, 7, 7);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Introduction Section */
+.intro {
+    padding: 2rem;
+    background-color:white;
+}
+
+.intro h2 {
+    margin-bottom: 1rem;
+    color: #020d4b;
+    text-decoration: underline;
+}
+
+.intro p {
+    margin-bottom: 1rem;
+}
+
+/* Branch Section Styling */
+.branch {
+    padding: 2rem;
+    background-color: #070133;
+    color:white;
+    
+}
+
+.branch-content {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.branch img {
+    width: 200px;
+    height: auto;
+    margin-right: 1.5rem;
+    border: #141414;
+
+}
+
+.branch h2 {
+    margin-bottom: 0.5rem;
+}
+
+.branch p {
+    margin-bottom: 1rem;
+}
+
+/* Lists Section */
+.lists {
+    padding: 2rem;
+    background-color: #141414;
+    color: #f4f4f4;
+}
+
+.lists ul, .lists ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.lists li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: rgb(248, 238, 238);
+    position: relative;
+}
